@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Git Script Flow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    code {
+      font-family: monospace;
+      background-color: #f5f5f5;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Git Script Flow</h1>
+    
+    <h2>Getting Started</h2>
+    
+    <p>To use this script, you will need to have curl and git installed on your machine. You can install them using the following commands:</p>
+    
+    <code>sudo apt-get update</code>
+    <code>sudo apt-get install curl git</code>
+    
+    <p>To use the script, simply download or clone the <code>git-script.py</code> file onto your local machine.</p>
+    
+    <h2>Usage</h2>
+    
+    <p>To run the script, open a terminal window and navigate to the directory where the <code>git-script.py</code> file is located. Then run the following command:</p>
+    
+    <code>sudo python3 git-script.py</code>
+    
+    <p>This will clone all of your GitHub repositories into the specified directory. By default, the repositories will be cloned into a subdirectory named <code>gitrepos</code> in the same directory as the script.</p>
+    
+    <h2>Configuration</h2>
+    
+    <p>Before running the script, you will need to configure it by setting the following variables at the top of the file:</p>
+    
+    <ul>
+      <li><code>username</code>: Your GitHub username.</li>
+      <li><code>directory</code>: The path to the directory where you want to clone the repositories.</li>
+    </ul>
+    
+    <p>You can also modify the default subdirectory name (<code>gitrepos</code>) by changing the <code>subdir</code> variable.</p>
+    
+    <h2>Built With</h2>
+    
+    <ul>
+      <li>Python</li>
+      <li>GitHub API</li>
+      <li>git clone command</li>
+    </ul>
+  </div>
+</body>
+</html>
