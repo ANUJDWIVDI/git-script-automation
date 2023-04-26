@@ -9,7 +9,7 @@ import json
 
 
 # Your --- GitHub username ----
-username = "ANUJDWIVDI"
+username = "[Enter your name]"
 
 # The path to the directory where you want to clone the repositories -- must be in the same same instancee
 directory = "/path/to/remote/directory"
